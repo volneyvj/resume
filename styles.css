@@ -120,7 +120,7 @@ margin-left: 8px;
   height: 155px;
   padding: 5px 0;
   margin-left: 5px;
-  filter: grayscale(80%);
+  filter: grayscale(10%);
   position: absolute;
   left: 25px;
   bottom: 0;

@@ -25,10 +25,22 @@ a {
 
 .resume {
   width: 800px;
-  height: 155vh;
+  height: 1400px;
   margin: 10px auto;
   padding: 20px;
   background-color: #FFFAFA;
+}
+
+@media screen and (min-width: 800px) {
+  .resume {
+    height: 1410px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .resume {
+    height: 1210px;
+  }
 }
 
 .top {

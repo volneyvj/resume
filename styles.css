@@ -167,10 +167,15 @@ a {
 }
 
 .tools,
-.education,
-.experience {
+.education {
   padding-top: 14px;
 }
+
+.experience {
+  padding-top: 14px;
+  height: 670px;
+}
+
 
 .skills {
   padding: 3px 0 0 14px;
@@ -217,7 +222,7 @@ a {
 
 .resume ul {
   padding-left: 40px;
-  overflow: hidden;
+ 
 }
 
 .resume ul li {
@@ -267,7 +272,7 @@ a {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 150px;
+  height: 160px;
   background: #0bb5f4;
 }
 
@@ -309,6 +314,10 @@ a {
   font-weight: 400;
   font-style: oblique;
   padding: 4px;
+}
+
+.job-description {
+  font-size: 12px;
 }
 
 .experience li {

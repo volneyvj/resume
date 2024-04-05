@@ -25,7 +25,7 @@ a {
 
 .resume {
   width: 800px;
-  height: 1400px;
+  height: 1200px;
   margin: 10px auto;
   padding: 20px;
   background-color: #FFFAFA;
@@ -33,13 +33,13 @@ a {
 
 @media screen and (min-width: 800px) {
   .resume {
-    height: 1310px;
+    height: 1190px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .resume {
-    height: 1210px;
+    height: 1190px;
   }
 }
 
@@ -290,7 +290,7 @@ a {
 }
 
 .profile {
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .profile-info {
@@ -321,7 +321,7 @@ a {
 }
 
 .experience li {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .rating {
@@ -346,6 +346,10 @@ a {
   
 }
 
+.profile-hr {
+  margin: 0px;
+}
+
 .left-side hr {
   width: 200px;
   height: 0.1em;
@@ -357,8 +361,9 @@ a {
   width: 440px;
   height: 0.1em;
   color: #D3CECE;
-  margin: 16px 0 0 10px;
+  margin: 8px 0 0 10px;
 }
+
 
 .contact-info hr {
   margin-bottom: 3px;

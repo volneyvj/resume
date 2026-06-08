@@ -2,20 +2,23 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16519120122"></script>
+
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-16519120122');
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog && window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="$i ji init en nn Ar tn an Yi capture calculateEventProperties dn register register_once register_for_session unregister unregister_for_session gn getFeatureFlag getFeatureFlagPayload getFeatureFlagResult isFeatureEnabled reloadFeatureFlags updateFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey cancelPendingSurvey canRenderSurvey canRenderSurveyAsync mn identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset setIdentity clearIdentity get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException addExceptionStep captureLog startExceptionAutocapture stopExceptionAutocapture loadToolbar get_property getSessionProperty fn hn createPersonProfile setInternalOrTestUser pn Ji opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing un debug Dr vn getPageViewId captureTraceFeedback captureTraceMetric Zi".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_kjVBvGhDXReP4DaNUnHyY5i9zbzDuXPWnUMcf53tHx6p', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2026-05-30',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+    posthog.capture('my_custom_event', { property: 'value' })
+    window.addEventListener('DOMContentLoaded', (event) => {
+        posthog.capture('visited_my_resume_page', {
+            current_timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            device_type: window.innerWidth < 768 ? 'mobile' : 'desktop'
+        });
+    });
 </script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-
 
   <meta charset="UTF-8">
   <title>ResumeCV - Volney Koudsi Faustini</title>
@@ -41,14 +44,14 @@
 
     <div class="top">
       <div class="profile-pic">
-        <span><a href="/index.html"><img class="profile-img" src="./volney.jpg" alt="profile_pic"></a></span>
+        <span><img class="profile-img" src="./volney.jpg" alt="profile_pic"></span>
       </div>
 
       <div class="my-info">
 
         <div class="inside-info">
           <span class="name">Volney Koudsi Faustini</span>
-          <span class="job">&nbsp;&nbsp;&nbsp;</span>
+          <span class="job">&nbsp;&nbsp;&nbsp;  Support Account Manager</span>
         </div>
 
         <div class="info-links">
@@ -85,15 +88,15 @@
     <div class="main">
       <div class="left-side">
 
-        <div class="contact-info">
-          <i class="fas fa-envelope"><span style="font-weight:200;"> volney.faustini@gmail.com</span></i>
+   <div class="contact-info" onclick="posthog.capture('clicked_contact_info_box');" style="cursor: pointer;">
+  <i class="fas fa-envelope"><span style="font-weight:200;"> volney.faustini@gmail.com</span></i>
 
-          <hr>
-          <i class="fas fa-phone-alt"></i>+34 691-873864</i>
-          <hr>
-          <i class="fas fa-map-marked-alt"></i>Alicante<BR>&nbsp&nbsp&nbsp&nbsp Spain</i>
-          <hr>
-        </div>
+  <hr>
+  <i class="fas fa-phone-alt"></i>+34 691-873864</i>
+  <hr>
+  <i class="fas fa-map-marked-alt"></i>Alicante<BR>&nbsp&nbsp&nbsp&nbsp Alicante-Spain</i>
+  <hr>
+</div>
 
         <div class="tools">
 
@@ -103,35 +106,35 @@
             HTML, CSS
           </div>
           <div class="tools_progress">
-            <span style="width: 92%;"></span>
+            <span style="width: 95%;"></span>
           </div>
 
           <div>
             JavaScript (ES6)
           </div>
           <div class="tools_progress">
-            <span style="width: 89%;"></span>
+            <span style="width: 90%;"></span>
           </div>
 
           <div>
             Node / React JS / Freemarker
           </div>
           <div class="tools_progress">
-            <span style="width: 71%;"></span>
+            <span style="width: 74%;"></span>
           </div>
 
           <div>
             MongoDB / SQL
           </div>
           <div class="tools_progress">
-            <span style="width: 88%;"></span>
+            <span style="width: 96%;"></span>
           </div>
 
           <div>
             Others: Excel / Macro-VBA
           </div>
           <div class="tools_progress">
-            <span style="width: 96%;"></span>
+            <span style="width: 98%;"></span>
           </div>
 
         </div>
@@ -240,14 +243,13 @@
               <div class="date">Oct-2022 - present</div>
 
               <p class="company-title">Twilio-Segment</p>
-              <p class="job-title">Technical Account Manager - TAM</p>
+              <p class="job-title">Technical Account Manager - Twilio/Segment</p>
               <div class="job-description">
-                Consistent point of contact for key accounts. Addressing customer queries, issues and possible bugs.
+                              Consistent point of contact for key accounts. Addressing customer queries, issues and possible bugs.
 Deep understanding of Segment's product, its integration partners, and ability to troubleshoot across different code languages.
 Advocate for features and improvements,  provide customer feedback to Eng. teams. 
                 Cross-functional collaboration with various teams.
                 Understanding customer trends and patterns, driving betterments to enhance the overall process.
-
             </div>
           </p>
 
@@ -257,9 +259,9 @@ Advocate for features and improvements,  provide customer feedback to Eng. teams
 
               <p class="company-title">OneTrust</p>
               <p class="job-title">Technical Implementation Consultant</p>
-              <div class="job-description">Onboarding customers, integrating, deploying and validating their configuration. 
+              <div class="job-description">Onboarding customers as the first and primary contact after the deal is closed.
                 Engaging trainings, workshops and support sessions, ensuring client satisfaction and adoption of the product.
-                Specialist with API and Integrations, dealing with several third-party platforms, html/css/js coding and complex logic solutions.</div>
+                Specialist with API and Integrations, dealing with several third-party platforms, html/css, some coding and complex logic solutions.</div>
             </li>
             <li>
               <div class="date">2018 - 2021</div>
@@ -269,7 +271,7 @@ Advocate for features and improvements,  provide customer feedback to Eng. teams
               <div class="job-description"> 
               Leader of after-sales department, focused on service contracts, 
               renewals, inside sales, automation tools development and digital business implementation.
-              Regular business meetings with customers and sales team (offisite), providing insights and gathering reviews 
+              Regular business meetings with customers and sales team, providing insights and gathering reviews 
               for analysis and future improvements.
             </div>
             </li>
@@ -300,6 +302,23 @@ Advocate for features and improvements,  provide customer feedback to Eng. teams
 
     </div>
   </div>
+
+
+<button id="signup-btn" style="padding: 15px 30px; font-size: 18px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Sign Up Now
+    </button>
+
+    <script>
+        document.getElementById('signup-btn').addEventListener('click', function() {
+            alert('Thank you for signing up!');
+            
+            // This tells PostHog to track a specific, custom action
+            posthog.capture('user_clicked_signup', {
+                button_color: 'blue',
+                page_location: 'center'
+            });
+        });
+    </script>
 
 </body>
 
